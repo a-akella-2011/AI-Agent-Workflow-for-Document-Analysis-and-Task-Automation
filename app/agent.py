@@ -1,12 +1,18 @@
+from app.tools import summarize
+
 def run_agent(task, document):
     steps = []
+
     steps.append("Received task")
+    
     steps.append("Analyzed document")
-    steps.append("Generated response")
+    
+    summary = summarize(document)
+    steps.append("Summarized document")
 
     result = {
         "task": task,
-        "output": "This is a placeholder result",
+        "output": summary,
         "steps": steps
     }
 
