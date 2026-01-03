@@ -29,9 +29,6 @@ ai-agent-workflow/
 3. Observe the output printed in the console  
 
 ```bash
-python app/main.py
-yaml
-Copy code
 
 ## Example Output
 {
