@@ -1,0 +1,4 @@
+sentence-transformers>=2.2.2
+faiss-cpu
+llama-cpp-python>=0.1.48
+python-dotenv
